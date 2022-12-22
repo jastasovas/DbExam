@@ -17,9 +17,8 @@ namespace DbExam.Entities
 
 
         public Student() { }
-        public Student(int departmentId, string firstName, string lastName)
+        public Student(string firstName, string lastName)
         {
-            DepartmentId = departmentId;
             FirstName = firstName;
             LastName = lastName;
         }   
