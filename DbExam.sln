@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbExam", "DbExam.csproj", "{B070A630-537D-4076-81F2-D2EF7514A754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B070A630-537D-4076-81F2-D2EF7514A754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B070A630-537D-4076-81F2-D2EF7514A754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B070A630-537D-4076-81F2-D2EF7514A754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B070A630-537D-4076-81F2-D2EF7514A754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3DCFD33-0724-4E84-AF58-8FE09E670C9D}
+	EndGlobalSection
+EndGlobal
