@@ -23,28 +23,37 @@ Department depp = new Department();
 
 //-------- 2 -----------
 
-var stud3 = new Student { FirstName = "Jonas", LastName = "Jonaitis" };
-var stud4 = new Student {FirstName = "Janina", LastName = "Janinaite"};
-var lec3 = new Lecture { Name = "Math" };
-var lec4 = new Lecture {Name = "Physics" };
+//var stud3 = new Student { FirstName = "Jonas", LastName = "Jonaitis" };
+//var stud4 = new Student {FirstName = "Janina", LastName = "Janinaite"};
+//var lec3 = new Lecture { Name = "Math" };
+//var lec4 = new Lecture {Name = "Physics" };
 
-var depar = context.Departments.Where(x => x.Name == "Computer Science").Include(s => s.Students).Include(l => l.Lectures).First();
-depar.Students.Add(stud3);
-depar.Students.Add(stud4);
-depar.Lectures.Add(lec3);
-depar.Lectures.Add(lec4);
-context.Departments.Update(depar);
-context.SaveChanges();
+//var depar = context.Departments.Where(x => x.Name == "Computer Science").Include(s => s.Students).Include(l => l.Lectures).First();
+//depar.Students.Add(stud3);
+//depar.Students.Add(stud4);
+//depar.Lectures.Add(lec3);
+//depar.Lectures.Add(lec4);
+//context.Departments.Update(depar);
+//context.SaveChanges();
 
 //-------- 3 -----------
 
+//var lec5 = new Lecture { Name = "Biology" };
+//var depar = context.Departments.Where(x => x.Name == "Chemistry").Include(l => l.Lectures).First();
+//depar.Lectures.Add(lec5);
+//context.Departments.Update(depar);
+//context.SaveChanges();
 
+//-------- 4 -----------
+//var stud5 = new Student {FirstName = "Petras", LastName = "Petrauskas", DepartmentId = 2};
+//context.Students.Add(stud5);    
+//context.SaveChanges();  
 
+//-------- 5 -----------
 
-
-
-
-
+//var student = context.Students.First(x => x.Id == 2);
+//student.DepartmentId = 3;
+//context.SaveChanges();  
 
 //-------- 6 -----------
 //var studentsList = context.Students.Where(x => x.DepartmentId == 5).Select(y => y.FirstName).ToList();
