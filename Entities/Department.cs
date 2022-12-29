@@ -14,10 +14,7 @@ namespace DbExam.Entities
         public List<Lecture> Lectures { get; set; }
 
         public Department() { }
-        //public Department(string name) 
-        //{
-        //    Name = name;
-        //}
+     
         public Department(string name, List<Student> students, List<Lecture> lectures)
         {
             Name = name;
